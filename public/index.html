@@ -2,12 +2,16 @@
     used: https://www.w3schools.com/css/css_navbar_horizontal.asp
     not responsive page; use url to add function
     can make it a fixed bottom navbar
+
+VIDEO Source: https://www.kapwing.com/e/60d396c6e3e5bd00df327f48
     -->
 <!DOCTYPE html>
 <html>
 <head>
     <!--Connect to CSS file-->
     <link rel="stylesheet" href="style.css">
+
+    <title>House of Hashimoto</title>
 
     <!--Meta Data-->
     <meta charset="UTF-8">
@@ -19,7 +23,7 @@
 <body>
 
     <div class="header">
-        <h1 class="container">Welcome to House of Hashimoto</h1>
+        <h1 class="container">House of Hashimoto</h1>
     </div>
 
 
@@ -29,22 +33,24 @@
 
         <li><a href="#contactUs">Contact Us</a></li>
         <li><a href="#reservations">Reservations</a></li>
+
         <li class="dropdown">
             <a href="#dining" class="dropbtn">Dining</a>
             <div class="dropdown-content">
-                <a href="#dinnerMenu">Dinner Menu</a>
-                <a href="#dessertMenu">Dessert Menu</a>
-                <a href="#wineList">Wine List</a>
+                <a href="dinnerMenu.html">Dinner Menu</a>
+                <a href="dessertMenu.html">Dessert Menu</a>
+                <a href="sakeList.html">Sake List</a>
             </div>
         </li>
         <li class="dropdown">
             <a href="#about" class="dropbtn">About Us</a>
             <div class="dropdown-content">
-                <a href="#history">Our History</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#hoursAndDirections">Hours & Directions</a>
+                <a href="ourHistory.html">Our History</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="hoursDirections.html">Hours & Directions</a>
             </div>
         </li>
+
         <li><a href="#home">Home</a></li>
     </ul>
 
@@ -53,47 +59,71 @@
 
 
     <div class="content">
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
+        <div class="homeHead">
+            <h1>Revel</h1>
+            <p>in</p>
+            <p>Authentic Japanese Cuisine</p>
+        </div>
     </div>
+
+
+    <div class="row">
+        <div class="columnBody" style="background-color:#aaa" ;>
+            <img src="https://live.staticflickr.com/65535/51265704717_87bfdd17a4_z.jpg" alt="Japanese Culture" class="indexImage" />
+        </div>
+        <div class="columnBody" style="background-color:#bbb" ;>
+            <h2>Rich Culture</h2>
+            <div class="buttonAlign">
+                <button onclick="location.href='ourHistory.html'" type="button">
+                    Our History
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="columnBody" style="background-color:#bbb" ;>
+            <h2>Taste Umami</h2>
+            <div class="buttonAlign">
+                <button onclick="location.href='overallMenu.html'" type="button">
+                    View Our Menus
+                </button>
+            </div>
+        </div>
+        <div class="columnBody" style="background-color:#aaa" ;>
+            <img src="https://live.staticflickr.com/65535/51266792073_0fb9d1901b_z.jpg" alt="Overall Restaurant Menu" class="indexImage" />
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="columnBody" style="background-color:#aaa" ;>
+            <img src="https://live.staticflickr.com/65535/51266440461_bff36fbe8d_z.jpg" alt="Restaurant Interior" class="indexImage" />
+        </div>
+        <div class="columnBody" style="background-color:#bbb" ;>
+            <div class="center-index">
+            <div class="center-h2">
+                <h2>Captivating Ambiance</h2>
+            </div>
+            <div class="buttonAlign">
+                <button onclick="location.href='hoursDirections.html'" type="button">
+                    Visit Us
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
 
     <!--This is the footer section-->
@@ -112,33 +142,42 @@
                 <p>Friday & Saturday: 6pm-11pm</p>
             </div>
 
-            <div class="column">
+            <div class="columnFooter">
                 <h2>Stay Connected</h2>
                 <p>
                     <div class="social-icons">
-                    <a class="social-icon" href="#" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                    <a class="social-icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a class="social-icon" href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a class="social-icon" href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="social-icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/this.is.droman/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="#" target="_blank"><i class="far fa-twitter-square" aria-hidden="true"></i></a>
                     </div>
                 </p>
             </div>
         </div>
-
     </div>
 
 
+
+
+
     <script>
-        window.onscroll = function () { myFunction() };
+        //execute myFunctionSticky function when user scrolls page
+        window.onscroll = function () { myFunctionSticky() };
+
+        //get navbar
         var navbar = document.getElementById("navbar");
+
+        //get navbar offset position
         var sticky = navbar.offsetTop;
 
-        function myFunction() {
+        //add sticky class to navabr when when you reach the scroll position; remove sticky when you leave scroll position
+        function myFunctionSticky() {
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
             } else {
                 navbar.classList.remove("sticky");
-                }
             }
+        }
     </script>
 
 
