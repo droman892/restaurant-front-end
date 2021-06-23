@@ -6,133 +6,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
+    <!--Connect to CSS file-->
+    <link rel="stylesheet" href="style.css">
 
-        * {
-            box-sizing: border-box;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: right;
-        }
-
-        li.homeLogo {
-            float: left;
-        }
-
-        li a, .dropbtn {
-             display: inline-block;
-             color: white;
-             text-align: center;
-             padding: 14px 16px;
-             text-decoration: none;
-        }
-
-        li a:hover, .dropdown:hover .dropbtn {
-              background-color: red;
-        }
-
-        li.dropdown {
-              display: inline-block;
-        }
-
-        .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #f9f9f9;
-              min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-              z-index: 1;
-        }
-
-        .dropdown-content a {
-              color: black;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-              text-align: left;
-        }
-
-        .dropdown-content a:hover {
-              background-color: #f1f1f1;
-        }
-
-        .dropdown:hover .dropdown-content {
-              display: block;
-        }
-
-        .footer {
-            background-color: #F1F1F1;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .header {
-            background-color: #f1f1f1;
-            padding: 20px;
-            text-align: center;
-        }
-
-        /* Create three equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 33.33%;
-            padding: 15px;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-
-        .social-icons .social-icon {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            height: 3.5rem;
-            width: 3.5rem;
-            background-color: #495057;
-            color: #fff;
-            border-radius: 100%;
-            font-size: 1.5rem;
-            margin-right: 1.5rem;
-        }
-
-        .social-icons .social-icon:last-child {
-            margin-right: 0;
-        }
-
-        .social-icons .social-icon:hover {
-            background-color: royalblue;
-        }
-
-
-
-
-    </style>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Website for Fictional Restaurant">
+    <meta name="author" content="David Roman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <div class="header">
-        <img src="https://live.staticflickr.com/65535/51265717255_5cd789183a_z.jpg" alt="Home Page Image" />
-        <h1>Welcome to House of Hashimoto</h1>
+        <h1 class="container">Welcome to House of Hashimoto</h1>
     </div>
 
 
-
-    <ul>
-        <li class="homeLogo"><a href="#houseOfHashitmoto">House of Hashimoto</a></li>
+    <!--Top Navigation Bar Code-->
+    <ul id="navbar">
+        <li class="homeLogo"><a href="#houseOfHashitmoto">HoH</a></li>
 
         <li><a href="#contactUs">Contact Us</a></li>
         <li><a href="#reservations">Reservations</a></li>
@@ -155,47 +48,55 @@
         <li><a href="#home">Home</a></li>
     </ul>
 
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
 
+
+
+
+    <div class="content">
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    </div>
+
+
+    <!--This is the footer section-->
     <div class="footer">
         <div class="row">
             <div class="column">
@@ -224,6 +125,23 @@
         </div>
 
     </div>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+                }
+            }
+    </script>
+
+
 
 </body>
 </html>
