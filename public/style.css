@@ -1,3 +1,50 @@
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {
+        position: relative;
+    }
+
+     .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+     }
+
+     .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+     }
+
+     .navbar.responsive .dropdown {
+         float: none;
+     }
+
+     .navbar.responsive .dropdown-content {
+          osition: relative;
+     }
+
+     .navbar.responsive .dropdown .dropbtn {
+         display: block;
+         width: 100%;
+         text-align: left;
+     }
+}
+
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +56,15 @@
 ::selection {
     background: black;
     color:white;
+}
+
+
+
+
+
+.active {
+    background-color:;
+    color: white;
 }
 
 blockquote {
@@ -37,12 +93,8 @@ blockquote {
     height: 50px;
 }
 
-
 .center-index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
+    transform: translateY(200%);
 }
 
 .column {
@@ -69,8 +121,6 @@ blockquote {
     padding: 16px;
 }
 
-
-
 div.header {
     background-image: url('https://live.staticflickr.com/65535/51265713589_2114185c64_z.jpg');
     background-position: 10% 290%;
@@ -79,32 +129,6 @@ div.header {
     background-size: cover;
     width: 100%;
     height: 400px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-    color:black;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .footer {
@@ -149,24 +173,40 @@ li.homeLogo {
     float: left;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
+.navbar {
+    background-color: #333;
+    overflow:;
+}
+
+.navbar::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
 }
 
-li.dropdown {
-    display: inline-block;
+.navbar .icon {
+    display: none;
 }
 
+.row {
+    display: flex;
+}
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -194,18 +234,6 @@ li.dropdown {
     background-color: ghostwhite;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.row {
-    display: flex;
-}
-
 .sticky {
     position: fixed;
     top: 0;
@@ -217,24 +245,57 @@ ul {
     padding-top: 60px;
 }
 
-
-/*
-#navbar::after {
-    clear: both;
-    content: "";
-    display: block;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky, .navbar.responsive.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.ul.navbar {
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+
+
+
+/*BELOW IS CODE SET TO BE TRANSFERRED OVER; when added to the selectors in order, the dropdown glitches*/
+
+.dropdown {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    overflow:;
 }
 
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #333;
+     font-family: inherit;
+        margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 .dropdown-content a {
     float: none;
     color: black;
@@ -244,4 +305,11 @@ ul {
     text-align: left;
 }
 
-*/
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
