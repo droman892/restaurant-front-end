@@ -339,8 +339,9 @@ ul {
 /*SLIDESHOW CODE ---auto*/
 
 
-.slide-pic {
-    width: 100%;
+.image-resize {
+    height: 380px;
+    object-fit: cover;
 }
 
 
@@ -350,7 +351,7 @@ ul {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
