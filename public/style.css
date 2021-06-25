@@ -10,6 +10,13 @@
 }
 
 @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
     .navbar.responsive {
         position: relative;
     }
@@ -90,6 +97,10 @@ body {
     border-right: 80px solid black;
 }
 
+.border1 {
+    border: solid black 5px;
+}
+
 .button {
     font-size: 110%;
     background-color: white;
@@ -110,6 +121,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 50px;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
 }
 
 .center-h2 {
@@ -147,16 +163,23 @@ body {
 
 .content {
     padding: 166px;
+    position: relative;
+    text-align: center;
 }
 
+.content-centered {
+    width: 1800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-weight: 800;
+}
 
 .flag {
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 350px;
+    height: 350px;
 }
 
 .footer {
@@ -189,8 +212,8 @@ html, body {
 
 
 .indexImage {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 2px solid black;
     box-shadow: 15px 15px #4b4b4b;
     display: block;
@@ -298,11 +321,6 @@ li.homeLogo {
     width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-    padding-top: 60px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -321,6 +339,159 @@ ul {
 
 
 
+
+
+/*SCROLL BUTTON*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+
+
+
+
+
+
+    /*GALLERY CODE*/
+
+.column-gallery {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-gallery::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gallery-image {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+
+
+
+
+/* ---------------GALLERY IMAGE MODAL--------------*/
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 55px;
+    right: 20%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 600px) {
+    .modal-content {
+        width: 100%;
+    }
+}
 
 
 
