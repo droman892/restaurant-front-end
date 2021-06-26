@@ -97,6 +97,16 @@ body {
     border-right: 80px solid black;
 }
 
+.bodyMenu {
+    background-image: url("https://live.staticflickr.com/65535/51273334945_9e0ca37bc7_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+
+
+
 .border1 {
     border: solid black 5px;
 }
@@ -647,6 +657,45 @@ ul {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENU STUFF*/
+
+.menu-center {
+    text-align: center;
+
+}
+
+.price {
+    color: #930000;
+    padding-left: 1%;
+}
+
+.menu-border {
+    border-bottom: 2px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+
+
 
 
 
