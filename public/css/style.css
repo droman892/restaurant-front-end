@@ -135,6 +135,7 @@ body {
 .button:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -185,10 +186,22 @@ body {
 }
 
 .content {
-    padding: 166px;
+    padding: 47px;
     position: relative;
     text-align: center;
 }
+
+
+
+div.content {
+    height: 100vh;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+
+    
+
 
 .content-centered {
     width: 1800px;
@@ -203,6 +216,10 @@ body {
 .flag {
     width: 350px;
     height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer {
@@ -235,14 +252,15 @@ html, body {
 
 
 .indexImage {
-    width: 500px;
-    height: 500px;
+
+    aspect-ratio: 16/9;
     border: 2px solid black;
     box-shadow: 15px 15px #4b4b4b;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
+  
 }
 
 li {
@@ -1088,4 +1106,26 @@ a.phone:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+
+
+
+/* HOUSE OF HASHIMOTO - HEADER LINK*/
+
+.head-home {
+    color: black;
+    transition: 0.2s;
+}
+
+.head-home:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.head-color {
+    color: black;
 }
