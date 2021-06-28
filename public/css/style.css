@@ -73,7 +73,14 @@ a {
     text-decoration: none;
 }
 
+.address {
+    color: white;
+}
 
+a.address:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+}
 
 
 blockquote {
@@ -108,8 +115,12 @@ body {
 
 
 
-.border1 {
-    border: solid black 5px;
+.container-hours {
+    margin: auto;
+    color: white;
+    background-color: black;
+    width: 80%;
+    
 }
 
 .button {
@@ -526,6 +537,132 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* SPARKS BACKGROUND ON RESERVATIONS PAGE*/
+
+.reserve-center {
+    display: block;
+    text-align: center;
+}
+
+.sparks-image {
+    width: 100%;
+    opacity: 0.05;
+}
+
+
+
+.index-link {
+    color: black;
+
+}
+
+
+
+.reservations-text {
+    margin: 0;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.explore-button {
+
+
+}
+
+
+
+.bullets {
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT FORM*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=reset] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    input[type=reset]:hover {
+        background-color: #4b4b4b;
+        transition: 0.2s;
+    }
+
+.form-container {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+.contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+.italics {
+    font-style: italic;
+}
+
+
+a.phone {
+    color: black;
+}
+
+a.phone:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+}
 
 
 
