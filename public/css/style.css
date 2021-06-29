@@ -119,17 +119,33 @@ body {
     margin: auto;
     color: white;
     background-color: black;
-    width: 80%;
+    width: 60%;
+    height: 400px;
+   text-align: center;
     
 }
+
+.center-hours {
+    font-weight: bold;
+    max-width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+   
+    top: 121%;
+   
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, 10%);
+}
+
 
 .button {
     font-size: 110%;
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     border-color: black;
     transition: 0.2s;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -152,6 +168,9 @@ body {
     font-weight: bold;
 }
 
+
+
+
 .center-h2 {
     display: flex;
     justify-content: center;
@@ -161,12 +180,13 @@ body {
 }
 
 .center-index {
-    transform: translateY(20%);
+    transform: translateY(-3%);
 }
 
 .column {
     width: 33.33%;
     height: 80%;
+    margin-bottom: 3.92px;
 }
 
 .columnBody {
@@ -204,7 +224,7 @@ div.content {
 
 
 .content-centered {
-    width: 1800px;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -230,7 +250,7 @@ div.content {
 }
 
 .footerOptions:hover {
-    color: #4b4b4b;
+    color: #838383;
 }
 
 .header {
@@ -252,15 +272,13 @@ html, body {
 
 
 .indexImage {
-
     aspect-ratio: 16/9;
     border: 2px solid black;
-    box-shadow: 15px 15px #4b4b4b;
+    box-shadow: 15px 15px #838383;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-  
 }
 
 li {
@@ -316,6 +334,10 @@ li.homeLogo {
     display: flex;
 }
 
+div.row {
+    margin: auto;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -340,7 +362,7 @@ li.homeLogo {
 }
 
 .social-icons .social-icon:hover {
-    background-color: #4b4b4b;
+    background-color: #838383;
 }
 
 .sticky {
@@ -431,6 +453,7 @@ ul {
         bottom: 0;
         left: 50%;
         margin-left: -3px;
+        margin-bottom: -100px;
     }
 
 /* Container around content */
@@ -547,12 +570,16 @@ ul {
     text-align: center;
     font-weight: 500;
     padding-top: 6px;
+    margin-top: 100px;
 }
 
 .timeline-link {
     text-decoration: underline;
 }
 
+.timeline-link:hover {
+    color: #838383; 
+}
 
 
 
@@ -645,7 +672,7 @@ input[type=reset] {
 }
 
     input[type=reset]:hover {
-        background-color: #4b4b4b;
+        background-color: #838383;
         transition: 0.2s;
     }
 
