@@ -89,7 +89,7 @@
         <br />
 
         <h2 class="contact">
-            Alternatively, call us: <a href="#" class="phone">+1(919) ### - ####</a>
+            Alternatively, call us: <a href="#" class="phone">+1(919) *** - ****</a>
         </h2>
 
         <br />
@@ -97,8 +97,8 @@
         <br />
 
         <p class="contact">
-            For employment inquiries, please type "Employment Candidate - <span class="italics">Your Name</span> " in the Subject Line and upload your resume
-            in a Word file (include your cover letter in the body of the form)
+            For employment inquiries, please send your resume and cover letter to contact@hashimoto***, with "Employment Candidate - 
+            <span class="italics">Your Name</span> " in the Subject Line
         </p>
 
         <br />
@@ -107,27 +107,34 @@
 
 
         <div class="form-container">
-            <form action="/action_page.php">
+            <form>
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Please Insert Your First Name.." >
+                <input type="text" id="fname" name="firstname" placeholder="Please Insert Your First Name..." required>
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Please Insert Your Last Name..">
+                <input type="text" id="lname" name="lastname" placeholder="Please Insert Your Last Name..." required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Please Insert Your Email Address..">
+                <input type="text" id="email" name="email" placeholder="Please Insert Your Email Address..." required>
 
                 <label for="subject">Subject</label>
-                <input type="text" id="subject" name="lastname" placeholder="Please Insert Your Subject Line..">
+                <input type="text" id="subject" name="lastname" placeholder="Please Insert Your Subject Line..." required>
 
 
 
 
                 <label for="subject">Questions | Comments | Concerns</label>
-                <textarea id="subject" name="notes" placeholder="Please Share Your Thoughts.." style="height:200px"></textarea>
+                <input type="text" id="comments" name="comments" placeholder="Please share your thoughts..." required>
 
-                <input type="reset" value="Submit">
-                <input type="file" id="myFile" name="file-name" />
+                <!--
+
+    <textarea id="subject" name="notes" placeholder="Please Share Your Thoughts..." class="comments" required></textarea>
+
+        -->
+
+
+                <button type="submit" class="btn btn-contact">Submit</button>
+
             </form>
         </div>
 

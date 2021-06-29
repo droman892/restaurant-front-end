@@ -89,91 +89,136 @@
 
         <div class="reserve-center">
 
-            
-
-                <h1>
-                    Thank you for considering <a href="../ourHistory.html" class="index-link">House of Hashimoto</a> for your coming event
-                </h1>
-                <p>
-                    An integral part of the Raleigh community, HoH provides a variety of dining rooms perfect for business mettings,
-                    rehearsal dinners, birthdays, or anniversary parties.
-                </p>
-                <p>
-                    Executive Chef Eichi Ito invites you to experience our rich, umami cuisine created from fresh, organic ingredients 100% sourced
-                    from Japan.
-                </p>
-
-                <br />
-                <br />
-                <br />
-
-                <button class="button">Explore Options</button>
-
-                <br />
-                <br />
-                <br />
 
 
-                <h1>
-                    HoH provides 3 spaces available for private dining
-                </h1>
-              
+            <h1>
+                Thank you for considering <a href="../ourHistory.html" class="index-link">House of Hashimoto</a> for your coming event
+            </h1>
+            <p>
+                An integral part of the Raleigh community, HoH provides a variety of dining rooms perfect for business mettings,
+                rehearsal dinners, birthdays, or anniversary parties.
+            </p>
+            <p>
+                Executive Chef Eichi Ito invites you to experience our rich, umami cuisine created from fresh, organic ingredients 100% sourced
+                from Japan.
+            </p>
 
-                    
-                        <p>
-                        Our "Sakura Room" seats 10 individuals and hosts 16 for a sake event
-                        </p>
-                        <p>
-                        Our "Bonsai Room" seats 24 individuals and hosts 30 for a sake event
-                        </p>
-                        <p>
-                        Our "Lotus Room" seats 50 individuals and hosts 60 for a sake event
-                        </p>
+            <br />
+            <br />
+            <br />
 
-                     
-
-                        <p>
-                        ***Note: Our "Main Hall" may be reserved for party sizes as high as 100
-                        </p>
-                    
-                
-
-                <br />
-
-                <h1>
-                    Booking Information
-                </h1>
-             
-                    <p>
-                        Please confirm final guest count and menu selection 7 days prior to the event
-                    </p>
-                    <p>
-                        Charges will be based off of the final guest count or the guaranteed number, whichever is greater
-                    </p>
-                    
-                    <p>
-                    A signed contract detailing the specifics of the event will be finalized 7 days before the event
-                    </p>
-                    <p>
-                    Cancellations 1 day prior to event will be charged 50% of the food price
-                    </p>
-                    <p>
-                        Cancellations the day of the event are responsible for 100% of the food price
-                    </p>
-                    <p>
-                    All parties will be billed on a single check with an added 7.5% sales tax
-                    </p>
-                    <p>
-                    We accept American Express, Visa, Master Card, and Discover Cards
-                    </p>
-                    <p>
-                    Decorations are allowed, with exception to confetti and adhesives
-                    </p>
-               
-
-
+            <button class="button" onclick="openForm()">Explore Options</button>
 
             
+
+            <div class="form-popup" id="myForm">
+
+
+                <form class="form-container-reserve">
+                    <h1 class="center">Reservation Inquiry</h1>
+
+                    <label for="fName"><b>First Name</b></label>
+                    <input type="text" placeholder="Enter First Name..." name="first name" required>
+
+                    <label for="lName"><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name..." name="last name" required>
+
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Enter Phone Number..." name="email" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email Address..." name="email" required>
+
+                    <label for="event-type"><b>Type of Event</b></label>
+                    <input type="text" placeholder="Enter the Type of Event..." name="event-type" required>
+
+                    <label for="eventDate"><b>Event Date</b></label>
+                    <input type="text" placeholder="Enter Event Date..." name="event date" required>
+
+                    <label for="startTime"><b>Event Start Time</b></label>
+                    <input type="text" placeholder="Enter Event Start Time..." name="start time" required>
+
+                    <label for="guestCount"><b>Guest Count</b></label>
+                    <input type="text" placeholder="Enter Guest Count..." name="guest count" required>
+
+                    <label for="anythingElse"><b>Anything Else?</b></label>
+                    <input type="text" placeholder="..." name="anything else">
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+
+
+
+
+
+            <br />
+            <br />
+            <br />
+
+
+            <h1>
+                HoH provides 3 spaces available for private dining
+            </h1>
+
+
+
+            <p>
+                Our "Sakura Room" seats 10 individuals and hosts 16 for a sake event
+            </p>
+            <p>
+                Our "Bonsai Room" seats 24 individuals and hosts 30 for a sake event
+            </p>
+            <p>
+                Our "Lotus Room" seats 50 individuals and hosts 60 for a sake event
+            </p>
+
+
+
+            <p>
+                ***Note: Our "Main Hall" may be reserved for party sizes as high as 100
+            </p>
+
+
+
+            <br />
+
+            <h1>
+                Booking Information
+            </h1>
+
+            <p>
+                Please confirm final guest count and menu selection 7 days prior to the event
+            </p>
+            <p>
+                Charges will be based off of the final guest count or the guaranteed number, whichever is greater
+            </p>
+
+            <p>
+                A signed contract detailing the specifics of the event will be finalized 7 days before the event
+            </p>
+            <p>
+                Cancellations 1 day prior to event will be charged 50% of the food price
+            </p>
+            <p>
+                Cancellations the day of the event are responsible for 100% of the food price
+            </p>
+            <p>
+                All parties will be billed on a single check with an added 7.5% sales tax
+            </p>
+            <p>
+                We accept American Express, Visa, Master Card, and Discover Cards
+            </p>
+            <p>
+                Decorations are allowed, with exception to confetti and adhesives
+            </p>
+
+
+
+
+
 
 
         </div>
@@ -276,6 +321,9 @@
 
 
     <script src="../javaScript/navbar.js"></script>
+    <script src="../javaScript/popUp.js"></script>
+
+   
 
 
 </body>
