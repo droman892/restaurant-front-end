@@ -27,11 +27,12 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 ## Status
 
-<p align="center"> <img src="https://img.shields.io/github/release-date/droman892/restaurant-front-end" /> </p>
+<p align="center"> <img src="https://img.shields.io/tokei/lines/github/droman892/restaurant-front-end" /> </p>
 
 <p align="center"> <img src="https://img.shields.io/github/languages/count/droman892/restaurant-front-end" /> </p>
 
 <p align="center"> <img src="https://img.shields.io/github/repo-size/droman892/restaurant-front-end" /> </p>
+
 
 ##Roadmap
 
