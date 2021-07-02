@@ -32,7 +32,7 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 
 
-
+<p align="center"> <img src="/github/followers/:user?label=Follow" /> </p>
 
 
 
