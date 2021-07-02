@@ -2,33 +2,33 @@
 
 House of Hasimoto (HoH) is a static website for a fictional, high-end Japanese restaurant.
 
+:japan:  :ramen:  :tea:  :dango:  :rice_ball:  :fried_shrimp:  	:sake:
+
 ## Description
 
-The theme behind the HoH site revolves around elegance, authenticity, and minimality.  Inspired by an appreciation for Japanese culture and food, HoH pays homeage to traditional Japanese norms, first noted on the index page with 
+The theme behind the HoH site revolves around elegance, authenticity, and minimality.  Inspired by an appreciation for Japanese culture and food, HoH pays homeage to traditional Japanese norms, first noted on the index page with the Japanese flag in the background.  Upon further exploration through the website, the Japanese influence on the design of the site is clear by it's use of negative space, along with the item menus and "Our History" section. 
 
-
+Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed top-navigation bar with sub-menus, and "House of Hashimoto" + *the purpose of the web page*  centered in the middle of the viewport.  A mentionable functionality that leads to a great user experience includes the gallery display that increases the opacity of images on-hover, and creates modal images on-click.  Additionally, on the "Reservations" page, JavaScript is used to create an event where on the click of the "Explore Options" button, a form appears for users to document their reservation information.
 
 ## Preview
 
-[![HoH Index Page](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)]
+[![House of Hashimoto](insert-gif-link)]
 
 
+## Business Use Case
 
-:laughing:
+- Client desires an aesthetic, user-friendly online presence for restaurant / business
+- Dev team is looking for prototypes of the front-end for a web app
 
-
-:telephone:
-
-:heart_eyes: 
 
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume?type=dev)
-
+[![GitHub license](https://choosealicense.com/licenses/mit/)]
+/github/repo-size/:user/:repo
+	/github/workflow/status/:user/:repo/:workflow/:branch
+/github/languages/count/:user/:repo
+/github/followers/:user?label=Follow
 
 
 
@@ -39,6 +39,15 @@ The theme behind the HoH site revolves around elegance, authenticity, and minima
 
 ##Roadmap
 
+House of Hashimoto remains an on-going project, open to contributions.  Functionality that could improve the UX, aside from being fully responsive include the following: 
+
+1) a button in the footer to smooth-scoll to the top
+2) pagination on the "Gallery" page
+3) a smooth-scoll sidebar on the "Full Menu" page
+4) a darkened background to complement the pop-up reservation inquiry form
+5) customizing the pop-up dialogue for the form requirements
+
+The forms were created to mimic real-world functionality by appearance.  Since they don't connect to a back-end / database, contributors are able to develop the backend themselves or develop UX alternatives.  More so, social media icons are also present to mimic real-world functionality of an existing business.
 
 
 
