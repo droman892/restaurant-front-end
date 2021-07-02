@@ -27,11 +27,7 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 ## Status
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<p align="center"> <img src="https://buttons.github.io/buttons.js" /> </p>
-
-<p align="center"> <img src="https://img.shields.io/github/license/droman892/restaurant-front-end" /> </p>
+<p align="center"> <img src="https://img.shields.io/github/release-date/droman892/restaurant-front-end" /> </p>
 
 <p align="center"> <img src="https://img.shields.io/github/languages/count/droman892/restaurant-front-end" /> </p>
 
