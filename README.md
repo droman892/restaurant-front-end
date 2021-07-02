@@ -1,7 +1,14 @@
+![img3](https://user-images.githubusercontent.com/25372739/124298533-58cef680-db2a-11eb-96cd-6f486a9ad2d8.JPG)
+
+
+
+
 # House of Hashimoto
 
 House of Hasimoto (HoH) is a static website for a fictional, high-end Japanese restaurant.
+<p align="center">
 
+</p>
 :japan:  :ramen:  :tea:  :dango:  :rice_ball:  :fried_shrimp:  	:sake:
 
 ## Description
@@ -24,15 +31,19 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 ## Status
 
-[![GitHub license](https://choosealicense.com/licenses/mit/)]
-/github/repo-size/:user/:repo
-	/github/workflow/status/:user/:repo/:workflow/:branch
-/github/languages/count/:user/:repo
-/github/followers/:user?label=Follow
+
+<p align="center"> <img src="https://img.shields.io/github/watchers/droman892/restaurant-front-end?style=social" /> </p>
+
+<p align="center"> <img src="https://img.shields.io/github/followers/droman892?style=social" /> </p>
+
+<p align="center"> <img src="https://img.shields.io/github/license/droman892/restaurant-front-end" /> </p>
+
+<p align="center"> <img src="https://img.shields.io/github/languages/count/droman892/restaurant-front-end" /> </p>
+
+<p align="center"> <img src="https://img.shields.io/github/repo-size/droman892/restaurant-front-end" /> </p>
 
 
 
-<p align="center"> <img src="/github/followers/:user?label=Follow" /> </p>
 
 
 
