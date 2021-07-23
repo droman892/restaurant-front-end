@@ -27,6 +27,17 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 <p align="center"> <img src="https://img.shields.io/github/repo-size/droman892/restaurant-front-end" /> </p>
 
+## Download and Installation
+
+You may work off the bootstrap resume template by one of the following:
+
+- Clone the repo: `git clone https://github.com/droman892/restaurant-front-end.git`
+
+## Usage
+
+After the project files are downloaded, feel free to edit the HTML, CSS, and JavaScript files included with `public` directory to 
+edit the website as you see fit. To preview the changes you make to the code, you can open 
+the `index.html` file in your web browser.
 
 ## Roadmap
 
