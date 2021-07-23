@@ -43,7 +43,7 @@ House of Hashimoto remains an on-going project, open to contributions.  Function
 being fully responsive and adding a back-end, include the following:
 
 1) a button in the footer to smooth-scoll to the top in `fullMenu.html`
-2) pagination `gallery.html`
+2) pagination in `gallery.html`
 3) a smooth-scoll sidebar in `fullMenu.html`
 4) a darkened background to complement the pop-up reservation inquiry form in `reservations.html`
 5) customizing the pop-up dialogue for the form requirements in `reservations.html`
