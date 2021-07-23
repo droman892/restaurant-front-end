@@ -39,15 +39,18 @@ the `index.html` file in your web browser.
 
 ## Roadmap
 
-House of Hashimoto remains an on-going project, open to contributions.  Functionality that could improve the UX, aside from being fully responsive and adding a back-end, include the following:
+House of Hashimoto remains an on-going project, open to contributions.  Functionality that could improve the UX, aside from 
+being fully responsive and adding a back-end, include the following:
 
-1) a button in the footer to smooth-scoll to the top
-2) pagination on the "Gallery" page
-3) a smooth-scoll sidebar on the "Full Menu" page
-4) a darkened background to complement the pop-up reservation inquiry form
-5) customizing the pop-up dialogue for the form requirements
+1) a button in the footer to smooth-scoll to the top in `fullMenu.html`
+2) pagination `gallery.html`
+3) a smooth-scoll sidebar in `fullMenu.html`
+4) a darkened background to complement the pop-up reservation inquiry form in `reservations.html`
+5) customizing the pop-up dialogue for the form requirements in `reservations.html`
 
-The forms were created to mimic real-world functionality by appearance.  Since they don't connect to a back-end / database, contributors are able to develop the backend themselves or develop UX alternatives.  More so, social media icons are also present to mimic real-world functionality of an existing business.
+The forms were created to mimic real-world functionality by appearance.  Since they don't connect to a back-end / database, 
+contributors are able to develop the backend themselves or develop UX alternatives.  More so, social media icons are also 
+present to mimic real-world functionality of an existing business.
 
 ## Bugs and Issues
 
