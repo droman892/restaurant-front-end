@@ -14,7 +14,7 @@ Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed t
 
 ![House of Hashimoto](https://user-images.githubusercontent.com/25372739/124310122-bdde1880-db39-11eb-8dd5-c88c8f01c7af.gif)
 
-[LivePreview](http://david-roman.tech/restaurant-front-end/)
+[Live Preview](http://david-roman.tech/restaurant-front-end/)
 
 ## Business Use Case
 
