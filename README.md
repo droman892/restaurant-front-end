@@ -1,12 +1,12 @@
 ![House of Hashimoto](https://user-images.githubusercontent.com/25372739/124302476-45725a00-db2f-11eb-9936-1bf29c402fe7.JPG)
 
-<p align="center"> House of Hasimoto (HoH) is a static website for a fictional, high-end Japanese restaurant. </p>
+<p align="center"> House of Hashimoto (HoH) is a static website for a fictional, high-end Japanese restaurant. </p>
 
 <p align="center"> :japan:  :ramen:  :tea:  :dango:  :rice_ball:  :fried_shrimp:  :sake: </p>
 
 ## Description
 
-The theme behind the HoH site revolves around elegance, authenticity, and minimality.  Inspired by an appreciation for Japanese culture and food, HoH pays homeage to traditional Japanese norms, first noted on the index page with the Japanese flag in the background.  Upon further exploration through the website, the Japanese influence on the design of the site is clear by it's use of negative space, along with the menu items and the "Our History" page.
+The theme behind the HoH site revolves around elegance, authenticity, and minimality.  Inspired by an appreciation for Japanese culture and food, HoH pays homage to traditional Japanese norms, first noted on the index page with the Japanese flag in the background.  Upon further exploration through the website, the Japanese influence on the design of the site is clear by it's use of negative space, along with the menu items and the "Our History" page.
 
 Regarding UX, users enjoy a consistent initial-site-layout observed by a fixed top-navigation bar with sub-menus, and "House of Hashimoto" + *the purpose of the web page*  centered in the middle of the viewport.  A mentionable functionality that leads to a great user experience includes the gallery display that increases the opacity of images on-hover, and creates modal images on-click.  Additionally, on the "Reservations" page, JavaScript is used to create an event where on the click of the "Explore Options" button, a form appears for users to document their reservation information.
 
